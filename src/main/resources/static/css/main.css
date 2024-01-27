@@ -307,3 +307,19 @@ td {
     border-radius: .28571429rem;
     border: 1px solid rgba(34,36,38,.15);
 }
+
+
+
+
+.toiawase-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Roboto";
+}
