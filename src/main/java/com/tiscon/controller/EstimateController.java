@@ -161,5 +161,15 @@ public class EstimateController {
 
         return "complete";
     }
-
+    
+    /**
+     * TOP画面に戻る。
+     *
+     * @param model 遷移先に連携するデータ
+     * @return 遷移先
+     */
+    @PostMapping(value = "order", params = "backToTop")
+    String backToTopTop(Model model) {
+        return "top";
+    }
 }
