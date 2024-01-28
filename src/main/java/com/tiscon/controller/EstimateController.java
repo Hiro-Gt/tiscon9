@@ -136,7 +136,7 @@ public class EstimateController {
         model.addAttribute("userOrderForm", userOrderForm);
         model.addAttribute("price", price);
 
-        
+
         return "result";
     }
 
@@ -154,7 +154,9 @@ public class EstimateController {
 
             model.addAttribute("prefectures", estimateDAO.getAllPrefectures());
             model.addAttribute("userOrderForm", userOrderForm);
-            return "confirm";
+
+            // なぜか現状ここを通っている(2024_0128)
+            return "complete";
         }
 
         UserOrderDto dto = new UserOrderDto();
