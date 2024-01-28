@@ -323,3 +323,13 @@ td {
     line-height: 28px;
     font-family: "Roboto";
 }
+
+
+
+.ryoukinhyou {
+    height: 60vh;
+    background-image: url("../img/ryoukinhyou.jpg");
+    background-position:center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
