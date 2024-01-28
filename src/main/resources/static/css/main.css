@@ -312,16 +312,21 @@ td {
 
 
 .toiawase-text {
-    display: flex;
+    /* display: block; */
+    width: 100vw; 
     justify-content: center;
     align-items: center;
-    margin: 32px;
+    text-align: center;
+    /* margin: 32px; */
     color: black;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     font-family: "Roboto";
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat:no-repeat;
 }
 
 
@@ -343,6 +348,8 @@ td {
     line-height: 21px;
     font-family: "Roboto";
 }
+
+/* 入力の注意 */
 .box-text2 {
     margin: 48px 0px 32px;
     color: #313131;
