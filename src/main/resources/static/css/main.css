@@ -327,9 +327,9 @@ td {
 
 
 .ryoukinhyou {
-    height: 60vh;
+    height: 80vh;
     background-image: url("../img/ryoukinhyou3.jpg");
     background-position:center center;
-    background-size: 50%;
+    background-size: 65%;
     background-repeat: no-repeat;
 }
