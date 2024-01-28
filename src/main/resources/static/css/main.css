@@ -333,3 +333,22 @@ td {
     background-size: 65%;
     background-repeat: no-repeat;
 }
+
+.sub-title2 {
+    margin: 48px 0px 32px;
+    color: #ff0000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Roboto";
+}
+.box-text2 {
+    margin: 48px 0px 32px;
+    color: #313131;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+}
